@@ -41,11 +41,11 @@ A map application renders thousands of location markers (gas stations, hospitals
 
 **Classes:**
 
-MarkerStyle – the shared flyweight object
+- MarkerStyle – the shared flyweight object
 
-MarkerStyleFactory – factory that caches and returns shared styles
+- MarkerStyleFactory – factory that caches and returns shared styles
 
-Marker – a map marker with unique coordinates and a shared style
+- Marker – a map marker with unique coordinates and a shared style
 
 **🛠 Highlights:**
 
