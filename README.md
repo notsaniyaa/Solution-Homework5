@@ -50,12 +50,14 @@ A map application renders thousands of location markers (gas stations, hospitals
 **Highlights:**
 
 
+- 10,000 markers created
 
-10,000 markers created
+- Only 6 unique style objects reused
 
-Only 6 unique style objects reused
+- Logs memory efficiency stats
 
-Logs memory efficiency stats
+
 
 Code Location: flyweight/
+
 Entry Point: flyweight/MapRenderer.java
