@@ -32,6 +32,7 @@ uploader.uploadImage("villa.jpg");
 
 Code Location: proxy/
 Entry Point: Main.java
+![image](https://github.com/user-attachments/assets/d158ea62-ddd8-4986-ba71-a4ae0bc77b07)
 
 
 ## 2. Flyweight Pattern – Map Marker Optimization
@@ -61,3 +62,4 @@ A map application renders thousands of location markers (gas stations, hospitals
 Code Location: flyweight/
 
 Entry Point: flyweight/MapRenderer.java
+![image](https://github.com/user-attachments/assets/3188b44b-cb72-45d2-96dd-bb6f6bd15a88)
