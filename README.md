@@ -4,9 +4,20 @@
 
 This project demonstrates two structural design patterns implemented in Java:
 
-1. **Proxy Pattern** – for optimized image loading in a real estate image management system.
-2. **Flyweight Pattern** – for memory-efficient rendering of thousands of map markers.
+Explanations
+## 1. Proxy Pattern – Image Loading System
+Problem Solved:
+High-resolution images are heavy and slow to load, especially when browsing property listings. Users want a fast experience with immediate thumbnails and full images only when needed. Also, not everyone should be allowed to upload or replace images.
 
+How the Pattern Helped:
+The Proxy Pattern was used to delay loading full-resolution images until the user explicitly requests it (lazy loading). The ImageProxy class ensures thumbnails load instantly and the full image loads only once when needed. Additionally, a protection proxy (AgentImageUploader) checks whether the user is logged in before allowing uploads. This improves performance and adds access control logic without modifying the core image logic.
+
+## 2. Flyweight Pattern – Map Marker Rendering
+Problem Solved:
+Rendering thousands of map markers with individual icons, colors, and label styles would consume a large amount of memory. However, many markers use the same style (e.g., hospitals with the same icon and color), leading to data redundancy.
+
+How the Pattern Helped:
+The Flyweight Pattern reduced memory usage by sharing style objects between markers. Instead of creating 10,000 separate MarkerStyle objects, only 6 were created and reused among all Marker objects. This improves efficiency without changing functionality. The pattern separates intrinsic data (style) from extrinsic data (position), allowing massive scaling with minimal memory overhead.
 ---
 
 ## 1. Proxy Pattern – Image Management System
