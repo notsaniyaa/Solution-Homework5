@@ -47,7 +47,9 @@ A map application renders thousands of location markers (gas stations, hospitals
 
 - Marker – a map marker with unique coordinates and a shared style
 
-**🛠 Highlights:**
+**Highlights:**
+
+
 
 10,000 markers created
 
