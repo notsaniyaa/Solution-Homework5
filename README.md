@@ -18,6 +18,7 @@ Rendering thousands of map markers with individual icons, colors, and label styl
 
 How the Pattern Helped:
 The Flyweight Pattern reduced memory usage by sharing style objects between markers. Instead of creating 10,000 separate MarkerStyle objects, only 6 were created and reused among all Marker objects. This improves efficiency without changing functionality. The pattern separates intrinsic data (style) from extrinsic data (position), allowing massive scaling with minimal memory overhead.
+
 ---
 
 ## 1. Proxy Pattern – Image Management System
